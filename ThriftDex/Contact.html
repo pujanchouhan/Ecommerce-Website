@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThriftWebpage</title>
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-logo">
+            <p>ThriftDex</p>
+        </div>
+        <div class="nav-menu">
+            <ul>
+              <li><a href="home.html" target="_self" class="link active">Home</a></li> 
+              <li><a href="Contact.html" target="_self" class="link">Contact Us</a></li>  
+              <li><a href="About.html" target="_self" class="link">About</a></li> 
+              <li><a href="Our Policies.html" target="_self" class="link">Our Policies</a></li> 
+            </ul>
+        </div>
+        <div class="nav_button">
+            <a href="Login page.html" target="_self" class="signin"><button class="btn white-btn" id="loginBtn" onclick="login()">Sign in</button></a>
+            <a href="Login page.html" target="_self" class="signup"><button class="btn" id="registerBtn" onclick="register()">Sign up</button></a>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+        </div>
+    </nav>
+
+    <section class="contact-section">
+        <h2>We'd love to hear from you!</h2>
+        <p>Customer Support Due to some uncontrollable reasons, responses to your queries may be delayed. We appreciate your understanding and patience during this time.
+
+            To Edit your Order: Click here WhatsApp: 8249431285 Email: customer@thriftdex.in</p>
+        
+        <form action="#" method="post" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ThriftDex. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>
